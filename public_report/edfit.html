@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8" />
+            <script src="js/bootstrap.min.js"></script>
+            <link href="css/bootstrap.css" rel="stylesheet">
+            <link rel="stylesheet" href="css/chocolat.css" />
+            <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+            <script type="text/javascript" src="js/jquery.chocolat.js"></script>
+            <link href="css/customized.css" rel="stylesheet">
+
+        <title>Chocolat — demo</title>
+        <script>
+            $(function(){
+                $('#example0').Chocolat({
+                      imageSize: 'contain'
+                });
+
+                $('#example1').Chocolat({
+                    loop           : true,
+                    imageSize     : 'cover',
+                    overlayOpacity : 0.9
+                });
+
+            });
+        </script>
+    </head>
+    <body>
+      <div class="container">
+        <a href="../other_projects.html#crime" class = "p_home img_responsive"  > home </a>
+        <p class="h1_projects" style="color: #1E4F53;"> EdFit: </p>
+        <p class="h2_projects"> An interactive Hyper-Personal Device </p>
+        <p class = "p_projects" style="color: #7F7F7F;"> [Arduino] [Soldering]  [Laser Cutter] [Human Computer Interaction] </p>
+        </br>
+        <a href="https://www.youtube.com/watch?v=NKIhX34H0Dw" target="_blank" class = "p_home" style="color:#1E4F53;" > Watch the video! </a>
+    </br></br>
+
+
+
+        <a href="https://www.youtube.com/watch?v=NKIhX34H0Dw" target="_blank" class="image featured"><img src="img/portfolio/clock.png" class="img-responsive" alt="" style="height:350px;border:0, auto:width;"></a>
+
+        <div id="example0">
+            <a class="chocolat-image" href="img/portfolio/clock.png" title="foo">
+                <img src="img/portfolio/clock.png" style="width:50px; height:auto" alt="">
+            </a>
+            <a class="chocolat-image" href="img/portfolio/clock_1.png" title="bar">
+                <img src="img/portfolio/clock_1.png" style="width:50px; height:auto" alt="">
+            </a>
+            <a class="chocolat-image" href="img/portfolio/clock_2.png" title="foo">
+                <img src="img/portfolio/clock_2.png" style="width:50px; height:auto" alt="">
+            </a>
+            <a class="chocolat-image" href="img/portfolio/clock_3.png" title="bar">
+                <img src="img/portfolio/clock_3.png" style="width:50px; height:auto" alt="">
+            </a>
+            <a class="chocolat-image" href="img/portfolio/clock_4.png" title="foo">
+                <img src="img/portfolio/clock_4.png" style="width:50px; height:auto" alt="">
+            </a>
+            <a class="chocolat-image" href="img/portfolio/clock_5.png" title="foo">
+                <img src="img/portfolio/clock_5.png" style="width:50px; height:auto" alt="">
+            </a>
+            <a class="chocolat-image" href="img/portfolio/clock_6.png" title="foo">
+                <img src="img/portfolio/clock_6.png" style="width:50px; height:auto" alt="">
+            </a>
+            <a class="chocolat-image" href="img/portfolio/clock_7.png" title="foo">
+                <img src="img/portfolio/clock_7.png" style="width:50px; height:auto" alt="">
+            </a>
+        </div>
+
+        </br></br></br></br>
+
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="h2_fitted"> Role </div>
+            </div>
+            <div class="col-sm-9">
+                <p class = "p_projects">
+                    Involved in most of the user resreach, design and fabricatin process. Pair-programmed the countdown logic for the Arduino along with the lighting logic.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="h2_fitted"> Interview Process </div>
+            </div>
+            <div class="col-sm-9">
+                <p class = "p_projects">
+                  In the first part of the interview process we focused exclusively and intently on investigating, documenting and analyzing Ed. Our goal was to deeply understand Ed’s particular habits, schedules, interests, likes, dislikes, activities, goals, and passions. We used James Spradley’s three important principles to facilitate our interviews: "(1) documenting the language used for field note entry (2) making a verbatim record of what people say and (3) concrete language, a description of every detail in specifics.”
+                </br></br>
+                  We found that Ed’s life was micromanaged and completely scheduled around school and his home life. Fitness was his way of destressing. His peers began asking for personalized workout sessions. What began as a one-on-one workout affair grew into something more: an intense weekly program for other graduate school students, which they called ‘Ed-fit'. Although we asked about his son and wife quite often, he was much more engaged in talking about his fitness routines with peers.
+                </br></br>
+                  We reviewed the initial interview with our group and chose a couple focus areas to return to during our next interview with Ed. Our goal was to glean very specific information so that we could make a prototype for Ed as personal and customizable as possible. We circled most of our questions around fitness and his son, Curry. Once again, he was more reserved and tentative in talking about his son and home life. It became clear that he was more interested in developing ideas around exercise and his new-found fitness class. We also decided to attend of his classes as actual participants. We noted that he enjoyed seeing others improve and being motivated to push themselves harder with every workout. We approached him with the idea of creating a batman ‘signaling’ device that would alert Ed whenever someone pinged him over Slack, a popular online messaging platform that his peers used. However, we realized his biggest concern was the lack of motivation in many of his attendees. They quit too soon.
+                </br></br>
+                  In the end, our group decided on making a personalized (batman) countdown clock reminiscent of the large timers seen in most recreational gyms. Ed noted that the motivated attendees enjoyed competing against one another. However, there were others who wanted to improve for the sake of themselves. These individuals had no way of benchmarking their success. A clock would give them the mental awareness required to gauge their progress. It would also allow Ed to focus on the workout rather than individually motivating each person. The timer began with a soothing turquoise blue color before the three minute mark, at which it turns red to signal to the participants that the end of the exercise is close. In the last minute, the digits flash random colors to bring excitement and hopefully encourage people to give one final push.
+
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="h2_fitted"> Feedback and Rapid Prototyping </div>
+            </div>
+            <div class="col-sm-9">
+                <p class = "p_projects">
+                  Our first iteration included the wooden template with the neopixels, an acrylic top with rastered digits, and an acrylic backing with a rectangular cut-out for the arduino. The breadboard held the wires above with wooden cylinders. We quickly learned that this structure was too flimsy, as we had snapped a piece of the acrylic backing. In addition, the electronics should be properly housed, as we had burned out an Arduino. We soon noticed that the LEDs were not evenly diffusing light across the rastered strips which made up the numbered components. After hours of experimenting, we found a solution. We tried different types of material such as plastic, styrofoam, and paper. We played with varying elevated surfaces. In the end, we sanded the acrylic for a frosted effect, colored the wood black to create higher contrast, and used an extra piece of paper for an even diffusion. We then elevated the top acrylic layer with two more layers of wood to spread the cone of light from the LED over a greater distance.
+                </br></br>
+                  To protect the wiring in the back, we laser cut connectable strips of wood to surround the electronics, and stacked these until there was enough space to house the arduino and a breadboard with buttons. A larger acrylic backing was laser cut to enclose the electronics.
+                </p>
+            </div>
+        </div>
+         <hr>
+
+        </br></br></br></br>
+        <p class = "p_projects" style="margin-left:0px;"> Group Members: Francisco; Patrica; Krystal; </p>
+    </br>
+
+    <a href="../other_projects.html#crime" class = "p_home img_responsive"  > home </a>
+    </br></br>
+    </div>
+
+
+    </body>
+
+</html>

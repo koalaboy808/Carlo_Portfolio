@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8" />
+            <script src="js/bootstrap.min.js"></script>
+            <link href="css/bootstrap.css" rel="stylesheet">
+            <link rel="stylesheet" href="css/chocolat.css" />
+            <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+            <script type="text/javascript" src="js/jquery.chocolat.js"></script>
+            <link href="css/customized.css" rel="stylesheet">
+
+        <title>Chocolat — demo</title>
+        <script>
+            $(function(){
+                $('#example0').Chocolat({
+                      imageSize: 'contain'
+                });
+
+                $('#example1').Chocolat({
+                    loop           : true,
+                    imageSize     : 'cover',
+                    overlayOpacity : 0.9
+                });
+
+            });
+        </script>
+    </head>
+    <body>
+      <div class="container">
+        <a href="../index.html#drought" class = "p_home img_responsive"  > home </a>
+        <p class="h1_projects" style="color: #1E4F53;"> Drought in California: </p>
+        <p class="h2_projects"> To raise awareness about the drought in CA and create a chatbot that incites a call for action</p>
+        <p class = "p_projects" style="color: #7F7F7F;"> [Interactive Narrative] [Facebook Messenger] [Chatbot] [Javscript Animation] [Python] [Matlab] </p>
+        </br>
+
+        <a href="http://caliopenwater.herokuapp.com/index.html" target="_blank" class = "p_home" style="color:#1E4F53;" > Visit our site </a> or <a href="https://www.messenger.com/t/hioasis/" target="_blank" class = "p_home" style="color:#1E4F53;" > talk to our chatbot! </a>
+       </br></br>
+
+        <a href="http://caliopenwater.herokuapp.com/index.html" target="_blank" class="image featured"><img src="img/portfolio/drought.png" class="img-responsive" alt="" style="width:40%;border:0, auto:width;"></a>
+
+        <div id="example0">
+            <a class="chocolat-image" href="img/portfolio/drought.png" title="foo">
+                <img src="img/portfolio/drought.png" style="width:50px; height:auto" alt="">
+            </a>
+        </div>
+
+        </br></br></br></br>
+
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="h2_fitted"> Role </div>
+            </div>
+            <div class="col-sm-9">
+                <p class = "p_projects">
+                    Heavily involved in the design process, the javascript animation, and the NASA GRACE data manipulatin of graviational variations
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="h2_fitted"> Background </div>
+            </div>
+            <div class="col-sm-9">
+                <p class = "p_projects">
+                  We created a visualization project to raise
+        					awareness around the drought in California. We wanted the public to be fully cognizant
+        					of the magnitude of the problem, the source of the problem, and what they can do about it.
+        					Our interactive visualization tells a compelling story and links to a Facebook Messenger chatbot named Oasis.
+        					Our chatbot, Oasis, chats with users and allows users to take meaningful steps to ameliorate the
+        					drought problem. Oasis prompts users to sign a petition, donate to the cause, and connects them with
+        					relevant organizations/non-profits. She is the world's first chatbot to allow users to sign petitions.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="h2_fitted"> How we built it </div>
+            </div>
+            <div class="col-sm-9">
+                <p class = "p_projects">
+                  We used Greensock to animate relevant stories, data points, and images. We used the Node.js and the Change.org API packages
+                  to allow users to sign petitions via the chat interface. We used existing data from the major climate organizations such as
+                  United States Drought Monitor to tell the severity of the Drought. We used materialize package to easily format the HTML website
+                  and to display in a compelling format. We leveraged open soure code. We used Plotly, a JavaScript library to make a 3D model of
+                  California's sinking problem. We used GRACE satellite imagery NASA data to show how much California is sinking.
+                  We used preprocessing in python and conducted our data analysis in Matlab.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="h2_fitted"> Challenges we ran into </div>
+            </div>
+            <div class="col-sm-9">
+                <p class = "p_projects">
+                  Because we were creating a unique and original chatbot, we couldn't find good documentation or debugging support online for our specific problems. Because we wanted to use different visualization techniques to tell our story (3D modelling, animation, dynamic visualization, interactive visualization), our team members all worked on different techniques of visualization. Therefore, often one team member could not directly help one another.
+
+We were hacking without much sleep, so by 4:30am it became harder to articulate a clear and crisp story when we got additional data/research.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="h2_fitted">  Reflection </div>
+            </div>
+            <div class="col-sm-9">
+                <p class = "p_projects">
+                  We were amazed by how much we can get done in a quick time frame if everybody is on the same page. We created an outline of the story early on, and spent a good amount of time aligning people's viewpoints. After we created the detailed outline, we had minimal communication and project management problems.
+
+As we researched the project, we became much more aware of the severity of the problem that California is facing. We were also shocked by the lack of data to manage underground water in California.
+              </p>
+            </div>
+        </div>
+        </br></br></br></br>
+        <p class = "p_projects" style="margin-left:0px;"> Group Members: Parv Sondhi; Daniel Chen; Yifei Liu; Robin Oh</p>
+        </br></br>
+    <a href="../index.html#drought" class = "p_home img_responsive"  > home </a>
+    </br></br>
+    </div>
+
+
+    </body>
+
+</html>
